@@ -15,7 +15,7 @@ export default function Home() {
       title: 'Кровельные работы',
       description:
         'Надёжные кровельные решения под ключ: подбор материалов, монтаж, гидро- и теплоизоляция, контроль качества и сроков.',
-      href: '/services/krovelnye-raboty',
+      href: '/krovelnye-raboty',
       image: '/krovelnye-raboty.png',
     },
     {
