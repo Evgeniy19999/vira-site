@@ -70,6 +70,9 @@ export default function Home() {
           <div className="pointer-events-none absolute inset-0 z-0 bg-gradient-to-r from-slate-950/90 via-slate-950/70 to-slate-950/30" />
 
           <div className="relative z-10 max-w-6xl mx-auto px-4 pt-4 pb-24 md:pt-12">
+            <p className="text-sm md:text-base uppercase tracking-[0.25em] text-sky-300 mb-4">
+              ВИРА 
+            </p>
 
             <h1 className="mt-4 text-2xl md:text-4xl lg:text-5xl font-semibold leading-tight">
               Надёжные строительные решения
