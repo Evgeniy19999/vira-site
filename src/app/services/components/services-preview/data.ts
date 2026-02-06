@@ -73,4 +73,12 @@ export const data = [
     previewSrc: '/stroitelstvo-zdanij-i-sooruzhenij.png',
     href: '/stroitelstvo',
   },
+  {
+    id: 11,
+    title: 'Промышленный альпинизм',
+    description:
+    'Высотные работы любой сложности: монтаж и демонтаж конструкций, ремонт фасадов, герметизация швов, очистка и обслуживание зданий и сооружений.',
+    previewSrc: '/alp.jpg',
+    href: '/alp'
+  },
 ];
