@@ -22,7 +22,7 @@ function ServicesPage() {
       <Section
         className="relative overflow-hidden text-white -mt-16 pt-16"
         style={{
-          backgroundImage: "url('/uslugi.png')", // картинка в public/uslugi.png
+          backgroundImage: "url('/uslugi.webp')", 
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

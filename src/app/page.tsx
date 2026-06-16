@@ -60,7 +60,7 @@ export default function Home() {
           ref={heroRef}
           className="relative overflow-hidden"
           style={{
-            backgroundImage: "url('/rezka.jpg')",
+            backgroundImage: "url('/rezka.webp')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -188,7 +188,7 @@ export default function Home() {
             <div className="md:justify-self-end w-full max-w-md mx-auto md:mx-0">
               <div className="overflow-hidden rounded-3xl shadow-xl border border-slate-800">
                 <img
-                  src="/svarka.jpg"
+                  src="/svarka.webp"
                   alt="Сварочные работы и металлоконструкции"
                   className="block w-full h-full object-cover"
                 />

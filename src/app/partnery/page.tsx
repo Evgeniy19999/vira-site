@@ -22,7 +22,7 @@ function PartneryPage() {
       <Section
         className="relative overflow-hidden text-white -mt-16 pt-16"
         style={{
-          backgroundImage: "url('/part.png')",
+          backgroundImage: "url('/part.webp')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

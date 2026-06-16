@@ -17,8 +17,7 @@ export default function AboutPage() {
         ref={heroRef}
         className="relative overflow-hidden"
         style={{
-          // замени на свою картинку, если нужно
-          backgroundImage: "url('/svarka.jpg')",
+          backgroundImage: "url('/svarka.webp')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

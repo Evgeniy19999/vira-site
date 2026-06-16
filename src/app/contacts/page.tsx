@@ -59,7 +59,7 @@ function ContactsPage() {
       <Section
         className="relative overflow-hidden text-white -mt-16 pt-16"
         style={{
-          backgroundImage: "url('/svarochnye.jpg')",
+          backgroundImage: "url('/svarochnye.webp')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
