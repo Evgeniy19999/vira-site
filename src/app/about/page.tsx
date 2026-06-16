@@ -74,39 +74,69 @@ export default function AboutPage() {
   className="bg-slate-950 py-16 md:py-20 border-t border-white/5"
 >
   <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row md:items-start md:justify-between gap-10">
+
     {/* ЛЕВАЯ колонка — текст */}
     <div className="md:max-w-3xl">
       <p className="text-xs md:text-sm uppercase tracking-[0.25em] text-sky-300 mb-3">
         О нас
       </p>
+
       <h2 className="text-2xl md:text-3xl font-semibold mb-5">
         Кем мы являемся
       </h2>
 
       <div className="space-y-4 text-sm md:text-base text-slate-100/90">
         <p>
-          ООО «ВИРА» — проектно-строительная компания полного цикла. Мы
-          выполняем капитальное строительство, реконструкцию и ремонт
-          промышленных, коммерческих и общественных объектов, а также
-          работаем с мало- и многоэтажной застройкой.
+          ООО «ВИРА» — проектно-строительная компания полного цикла.
+          Мы выполняем капитальное строительство, реконструкцию и ремонт
+          промышленных, коммерческих и общественных объектов,
+          а также работаем с мало- и многоэтажной застройкой.
         </p>
+
         <p>
-          Мы выступаем как генеральный подрядчик и субподрядчик, берём на
-          себя организацию работ, координацию участников проекта и контроль
-          качества на всех этапах. Деятельность компании сертифицирована и
-          соответствует действующим нормам и стандартам.
+          Мы выступаем как генеральный подрядчик и субподрядчик,
+          берём на себя организацию работ, координацию участников проекта
+          и контроль качества на всех этапах.
+          Деятельность компании сертифицирована и соответствует
+          действующим нормам и стандартам.
         </p>
       </div>
     </div>
 
-    {/* ПРАВАЯ колонка — просто логотип */}
-    <div className="flex justify-start md:justify-end">
-      <img
-        src="/Vira.png"
-        alt="ВИРА"
-        className="w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 object-contain"
-      />
+    {/* ПРАВАЯ колонка — логотип + QR */}
+    <div className="flex justify-center md:justify-center">
+      <div className="bg-white/5 border border-white/10 rounded-2xl p-5 backdrop-blur-sm">
+
+        <img
+          src="/Vira.png"
+          alt="ВИРА"
+          className="mx-auto mb-4 w-24 h-24 object-contain"
+        />
+
+        <img
+          src="/presentation-qr.png"
+          alt="QR презентации ВИРА"
+          className="mx-auto w-44 h-44 bg-white p-2 rounded-xl object-contain"
+        />
+
+        <p className="text-center text-sm text-slate-300 mt-4">
+          Сканируйте QR-код
+          <br />
+          для просмотра презентации
+        </p>
+
+        <a
+          href="/vira-presentation.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block mt-4 text-center bg-sky-500 hover:bg-sky-400 transition rounded-xl py-2 text-white text-sm font-medium"
+        >
+          Открыть презентацию
+        </a>
+
+      </div>
     </div>
+
   </div>
 </section>
 
