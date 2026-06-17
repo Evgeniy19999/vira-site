@@ -49,7 +49,7 @@ function FasadnyeRaboty() {
             <div className="w-full max-w-md lg:max-w-lg">
               <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-white/10 shadow-xl bg-slate-900/70">
                 <Image
-                  src="/fasadnye-raboty.png"
+                  src="/fasadnye-raboty.webp"
                   alt="fasadnye raboty"
                   fill
                   className="object-cover"

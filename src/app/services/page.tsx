@@ -71,7 +71,6 @@ function ServicesPage() {
         </Container>
       </Section>
 
-      {/* КАРТОЧКИ УСЛУГ (как на скрине 2.2) */}
       <section className="bg-gradient-to-b from-slate-950 via-slate-950 to-slate-900 py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6">
           <ServicesPreview />

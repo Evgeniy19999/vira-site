@@ -53,7 +53,7 @@ function DemontazhZdanijPage() {
             <div className="w-full max-w-md lg:max-w-lg">
               <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-white/10 shadow-xl bg-slate-900/70">
                 <Image
-                  src="/demontazh.png"
+                  src="/demontazh.webp"
                   alt="Демонтаж зданий"
                   fill
                   className="object-cover"

@@ -16,7 +16,7 @@ export default function Home() {
       description:
         'Надёжные кровельные решения под ключ: подбор материалов, монтаж, гидро- и теплоизоляция, контроль качества и сроков.',
       href: '/krovelnye-raboty',
-      image: '/krovelnye-raboty.png',
+      image: '/krovelnye-raboty.webp',
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export default function Home() {
       description:
         'Инженерная подготовка, спецтехника, сортировка отходов и юридическое сопровождение. Безопасный демонтаж в сжатые сроки.',
       href: '/demontazh-zdanij',
-      image: '/demontazh.png',
+      image: '/demontazh.webp',
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ export default function Home() {
       description:
         'Фасады и интерьер под ключ: выравнивание, облицовка, декоративные покрытия, премиальное качество отделки.',
       href: '/otdelochnye-raboty',
-      image: '/otdelochnye-raboty.png',
+      image: '/otdelochnye-raboty.webp',
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ export default function Home() {
       description:
         'Обследование грунта, котлованы, траншеи, планировка участков. Собственная техника и прозрачная смета.',
       href: '/zemlyanye-raboty',
-      image: '/zemlyanye-raboty.png',
+      image: '/zemlyanye-raboty.webp',
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ export default function Home() {
       description:
         'Утепление, облицовка и реставрация фасадов. Энергоэффективность, современный внешний вид и защита здания.',
       href: '/fasadnye-raboty',
-      image: '/fasadnye-raboty.png',
+      image: '/fasadnye-raboty.webp',
     },
   ];
 
